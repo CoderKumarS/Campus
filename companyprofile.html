@@ -1,0 +1,308 @@
+<html>
+
+<head>
+    <!-- Start WOWSlider.com HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+
+    <!-- End WOWSlider.com HEAD section -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .my-div {
+            padding: 20px;
+            background: lightsalmon;
+        }
+
+        #heading {
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+    </style>
+    <style type="text/css">
+        
+        .hea {
+            font-size: 45px;
+            font-weight: bold;
+            text-shadow: 14px -8px 20px #FFFF6AFC;
+            text-align: center;
+            display: flex;
+            background: -webkit-linear-gradient(#FF80ACFF, #68b51b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .bxshadow{
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3),0 7px 21px 0 rgba(0, 0, 0, 0.20) ;
+            box-sizing: border-box;
+        }
+        .stic {
+            position: sticky;
+            top: 0%;
+            z-index: 1001;
+            left: 0;
+        }
+
+        .campus_logo {
+            display: block;
+            height: 80px;
+            margin: 5px auto;
+            border-radius: 10px;
+        }
+
+        .contact ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .contact ul li {
+            text-decoration: none;
+            margin: auto;
+        }
+
+        .contact ul li a {
+            text-decoration: none;
+        }
+
+        .contact ul li i {
+            margin-right: 5px;
+        }
+.navi ul li a {
+            font-size: 20px;
+        }.campus_logo {
+            width: 100px;
+            height: 80px;
+        }
+
+
+        .topnav {
+            background-color: #36C;
+            overflow: hidden;
+            border-radius: 20px;
+        }
+
+        /*Style the links inside the navgation bar */
+        .topnav a {
+            float: left;
+            color: #804000;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+            margin-right: 60px;
+        }
+
+        /* change the color of links on hover */
+        .topnav a:hover {
+            background-color: #800080;
+            color: #FFF;
+        }
+
+        /* Add a color to the active/current link */
+        .topnav a.active {
+            background-color: #C1BF71;
+            color: #804000;
+            margin-right: 20px;
+        }
+
+        .dropbtn {
+            background-color: #03F;
+            color: #000;
+            padding: 10px;
+            font-size: 18px;
+            font-style: oblique;
+            font-weight: 700;
+            border: thick;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline;
+            margin-right: 50px;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #C36;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 2);
+            z-index:1;
+            font-size: 16px;
+            font-style: oblique;
+            font-weight: 700;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color of dropdown links on hover */
+        .dropdown-content a:hover {
+            background-color: #FFF;
+        }
+
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Change the background color of the dropdown button when the dropdown content is showm */
+        .dropdown:hover .dropbtn {
+            background-color: #0FF;
+        }
+
+        .detail {
+            font-size: 16px;
+            font-weight: bold;
+            color: #900;
+            padding: 10px;
+        }
+
+        .detailhead {
+            font-size: 28px;
+            text-decoration: underline;
+            color: #FFF;
+        }
+
+        .obj {
+            font-size: 28px;
+            text-decoration: underline;
+            color: #F00;
+            padding-left: 20px;
+            font-weight: bold;
+        }
+
+        .objmain {
+            font-size: 18px;
+            color: #FFF;
+        }
+
+        .last {
+            font-size: 36px;
+            color: #C00;
+            font-weight: bold;
+        }
+
+        .end {
+            font-size: 40px;
+            color: #C00;
+        }
+    </style>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="background-color: #F10D10">
+            <div class="col-md-2">
+                <img src="images/campus_logo.png" class="campus_logo"  >
+            </div>
+            <div class="col-md-6">
+                <span class="hea">CAMPUS RECRUITEMENT SYSTEM</span>
+            </div>
+            <div class="d-none d-md-block col-md-4 ">
+                <div class="contact">
+                    <ul class="mx-auto">
+                        <li><a href="#"><i class="bi bi-telephone"></i>Call</a></li>
+                        <li><a href="#"><i class="bi bi-telephone"></i>Message</a></li>
+                        <li><a href="#"><i class="bi bi-telephone"></i>E-mail</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="background-color:#6CF">
+            <div class="col-md-12" style="background-color:#EEE;">
+                <ul id="MenuBar1" class="MenuBarHorizontal">
+                    <li><a href="companyindex.html">Home</a></li>
+                    <li><a href="cmprofile.html">profile</a></li>
+                    <li><a href="postjob.html">Post Job</a></li>
+                    <li><a href="viewStudent.php">View Student</a></li>
+                    <li><a href="index.html"><button>Logout</button></a></li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <div class="row" style="background-color:lightsalmon">
+            <div class="col-md-4" align="center">
+            </div>
+
+            <!-- Start WOWSlider.com BODY section -->
+            <center>
+                <div class="my-div col-md-4"><br><br><br>
+                    <center><b>
+                            <font id="heading">Enter Company Profile</font>
+                        </b></center>
+                    <center>
+                        <form name="f1" id="f1" method="post" action="cmprofile_action.php">
+                            <table align="center" width="350px">
+                                <tr>
+                                    <br>
+                                    <td style="font-weight:bold;">Company Name</td>
+                                    <td><input type="text" name="t1" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Reg. No</td>
+                                    <td><input type="text" name="t2" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Establish Date</td>
+                                    <td><input type="text" name="t3" class="form-control" required</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Director Name</td>
+                                    <td><input type="text" name="t4" class="form-control" required</td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Director Ph</td>
+                                    <td><input type="text" name="t5" class="form-control" required </td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Company Email</td>
+                                    <td><input type="text" name="t6" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Address</td>
+                                    <td><input type="text" name="t7" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">City</td>
+                                    <td><input type="text" name="t8" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td style="font-weight:bold;">Pin</td>
+                                    <td><input type="text" name="t9" class="form-control" required /></td>
+                                </tr>
+                                <tr>
+                                    <td align="center">
+                                        <br><input type="submit" value="submit" class="btn btn-primary"
+                                            style="padding-right: 30px;" />
+                                    </td>
+                                    <td align="center">
+                                        <br><input type="reset" value="Clear" class="btn btn-primary">
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </center>
+                    <br><br><br>
+                </div>
+        </div>
+    </div>
+    <div class="row" style="background-color:#CCC">
+        <div class="col-md-1" style="background-color:#CCC">
+        </div>
+
+    </div>
+    </div>
+    <script type="text/javascript">
+        var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", { imgDown: "SpryAssets/SpryMenuBarDownHover.gif", imgRight: "SpryAssets/SpryMenuBarRightHover.gif" });
+    </script>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

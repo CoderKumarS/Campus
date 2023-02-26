@@ -1,0 +1,25 @@
+.MenuBarHorizontal{
+    display: flex;
+    padding-left: 10px;
+    align-items: center;
+}
+.MenuBarHorizontal li{
+    list-style: none;
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 5PX;
+}
+.MenuBarHorizontal li a{
+    text-decoration: none;
+    margin: auto;
+}
+
+.mycolor {
+    background: linear-gradient(60deg, rgb(96, 191, 239), rgb(241, 93, 237));
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 76% 90%, 0 100%);
+    padding-bottom: 50px;
+    opacity: 0.9;
+}
+.navi ul li a {
+    font-size: 20px;
+}

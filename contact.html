@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=
+    Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style type="text/css">
+        .bgk {
+            background-image: url("./images/back.jpg");
+            opacity: 0.1;
+        }
+
+        .hea {
+            font-size: 45px;
+            font-weight: bold;
+            text-shadow: 14px -8px 20px #FFFF6AFC;
+            text-align: center;
+            display: flex;
+            background: -webkit-linear-gradient(#FF80ACFF, #68b51b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .bxshadow {
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3), 0 7px 21px 0 rgba(0, 0, 0, 0.20);
+            box-sizing: border-box;
+        }
+
+        .stic {
+            position: sticky;
+            top: 0%;
+            z-index: 1001;
+            left: 0;
+        }
+
+        .campus_logo {
+            display: block;
+            height: 80px;
+            margin: 5px auto;
+            border-radius: 10px;
+        }
+
+        .contact ul {
+            list-style: none;
+            display: flex;
+        }
+
+        .contact ul li {
+            text-decoration: none;
+            margin: auto;
+        }
+
+        .contact ul li a {
+            text-decoration: none;
+        }
+
+        .contact ul li i {
+            margin-right: 5px;
+        }
+
+        .navi ul li a {
+            font-size: 20px;
+        }
+
+        .campus_logo {
+            display: block;
+            height: 80px;
+            margin: 5px auto;
+            border-radius: 10px;
+        }
+
+        .detailhead {
+            font-size: 36px;
+            color: rgb(122, 68, 68);
+            font-weight: bold;
+            opacity: 1;
+            z-index: 1001;
+        }
+
+        .last {
+            font-size: 36px;
+            color: #C00;
+            font-weight: bold;
+        }
+
+        .end {
+            font-size: 40px;
+            color: #C00;
+        }
+
+        .cd-wrapp {
+            display: grid;
+            grid-template-rows: repeat(3, auto);
+            grid-gap: 3rem;
+        }
+
+        .cd-wrapp .cd {
+            text-align: center;
+        }
+
+        .cd-wrapp .cd img {
+            margin-bottom: 3rem;
+
+        }
+
+        .cd-wrapp .cd h1 {
+            font-weight: 400;
+            margin-bottom: 1rem;
+        }
+
+        .cd-wrapp .cd h6 {
+            font-size: 1rem;
+            color: var(--ternary);
+            font-weight: 400;
+            margin-bottom: 4rem;
+        }
+
+        .it-wrap {
+            display: grid;
+            grid-template-rows: repeat(1, auto);
+            grid-gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .it-wrap-2 {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .it-wrap-2 input {
+            margin-bottom: 2rem;
+        }
+
+        .sect input {
+            padding: 1rem 1rem;
+            border: 1px solid var(--bs-gray);
+            border-radius: 20px;
+        }
+
+        .sect .it-wrap-2 textarea {
+            padding: 0.5rem;
+            border: 1px solid var(--bs-gray);
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+
+        .sect input:focus,
+        .sect .it-wrap-2 textarea:focus {
+            outline: none;
+        }
+        @media (min-width:500px) {
+            .it-wrap {
+            grid-template-columns: repeat(2, auto);
+        }
+        .cd-wrapp {
+            grid-template-columns: repeat(3, auto);
+        }
+        }
+    </style>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row" style="background-color:#F4070B ">
+            <div class="col-md-2">
+                <img class="campus_logo" src="images/campus_logo.png">
+            </div>
+            <div class="col-md-6">
+                <span class="hea">CAMPUS RECRUITEMENT SYSTEM</span>
+            </div>
+            <div class="d-none d-md-block col-md-4 ">
+                <div class="contact">
+                    <ul class="mx-auto">
+                        <li><a href="#"><i class="bi bi-telephone"></i>Call</a></li>
+                        <li><a href="#"><i class="bi bi-telephone"></i>Message</a></li>
+                        <li><a href="#"><i class="bi bi-telephone"></i>E-mail</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <nav class="navbar navbar-expand-lg bg-primary">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse navi" id="navbarTogglerDemo03">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item mx-5">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item mx-5 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Login
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="adminlogin.html">Admin</a></li>
+                                    <li><a class="dropdown-item" href="userlogin.html">Student</a></li>
+                                    <li><a class="dropdown-item" href="companylogin.html">Company</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-5 dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Register
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="studentresum.php">Student</a></li>
+                                    <li><a class="dropdown-item" href="compreg.html">Company</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item mx-5">
+                                <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                            </li>
+
+                        </ul>
+                        <form class="d-flex" role="search" name="f" method="post" action="searchjob_action.php">
+                            <input class="form-control me-2" type="search" placeholder="Enter Job Title" name="t1"
+                                aria-label="Search">
+                            <button class="btn btn-outline-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class='sect'>
+            <div class="container">
+                <h1 class="heading" style="text-align: center; margin-bottom: 2rem; margin-top: 1rem;">Contact
+                    <span>Us</span></h1>
+                <div class="cd-wrapp">
+                    <div class="cd">
+                        <img src=phone alt="phone" />
+                        <h2>Call Us On</h2>
+                        <h6>+91 9466494318</h6>
+                    </div>
+                    <div class="cd">
+                        <img src={msg} alt="Message" />
+                        <h2>Email Us At</h2>
+                        <h6>xyz124@gmail.com</h6>
+                    </div>
+                    <div class="cd">
+                        <img src={map} alt="Location" />
+                        <h2>Visit Office</h2>
+                        <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h6>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="it-wrap">
+                        <input type="text" placeholder='Your Name' />
+                        <input type="email" placeholder='Your Email' />
+                    </div>
+                    <div class="it-wrap-2">
+                        <input type="text" placeholder='Your Subject...' />
+                        <textarea name="" id="" cols="30" rows="10" placeholder='Your Message...'></textarea>
+                    </div>
+                    <div class='btn-wrapper' style="text-align: center; margin-top: 2rem;">
+                        <button class='btn btn-primary'>Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
